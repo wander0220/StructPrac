@@ -23,6 +23,9 @@ namespace StructPrac
         static void Main(string[] args)
         {
             Point point; //== int x
+            //point = new Point(); // x=0,y=0; new 키워드 쓰면 기본값으로 초기화해준다.
+            point.x = 10;
+            point.y = 10;
         }
     }
 }
